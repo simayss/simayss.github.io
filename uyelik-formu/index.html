@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kayıt Formu</title>
+
+  <style>
+    body {
+      background-color: #F3F3FF;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      color: #2C2C54;
+      margin-top: 40px;
+    }
+
+    form {
+      margin-top: 30px;
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input {
+      width: 260px;
+      height: 32px;
+      margin: 10px 0;
+      padding-left: 8px;
+      border-radius: 5px;
+      border: 1px solid #aaa;
+    }
+
+    input[type="submit"] {
+      background-color: #2C2C54;
+      color: white;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #40407a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Öğrenci Üyelik Formu</h1>
+
+  <form action="kayit.html" method="get">
+    <label>Ad Soyad</label><br>
+    <input type="text" name="adsoyad" required><br>
+
+    <label>Bölüm</label><br>
+    <input type="text" name="bolum" required><br>
+
+    <label>Doğum Tarihi</label><br>
+    <input type="date" name="dogumtarihi"><br>
+
+    <input type="submit" value="Kaydı Gönder">
+  </form>
+
+</body>
+</html>
