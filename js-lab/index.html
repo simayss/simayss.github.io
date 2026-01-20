@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Harry Styles Lab Ödevi</title>
+    <script src="script.js" defer></script>
+</head>
+<body style="font-family:Arial, sans-serif;">
+
+    <!-- Sayfa başlığı -->
+    <h1 style="text-align:center; margin-top:30px;">Harry Styles Lab Ödevi</h1>
+
+    <!-- Rastgele fotoğraf üstte -->
+    <div style="text-align:center; margin-top:20px;">
+        <img id="randomImg" src="" width="250">
+    </div>
+
+    <!-- Sabit fotoğraflar konteyner -->
+    <div style="display:flex; justify-content:center; gap:20px; margin-top:40px; flex-wrap:wrap;">
+
+        <!-- SABİT 1 FOTOĞRAF -->
+        <div style="background-color:rgba(255,255,255,0.85); padding:15px; border-radius:15px; box-shadow:0 8px 15px rgba(0,0,0,0.3); text-align:center;">
+            <img id="sabit1" src="sabit1.jpg" width="200">
+            <br><br>
+            <button onclick="goster('sabit1')">Göster</button>
+            <button onclick="gizle('sabit1')">Gizle</button>
+        </div>
+
+        <!-- SABİT 2 FOTOĞRAF -->
+        <div style="background-color:rgba(255,255,255,0.85); padding:15px; border-radius:15px; box-shadow:0 8px 15px rgba(0,0,0,0.3); text-align:center;">
+            <img id="sabit2" src="sabit2.jpg" width="200">
+            <br><br>
+            <button onclick="goster('sabit2')">Göster</button>
+            <button onclick="gizle('sabit2')">Gizle</button>
+        </div>
+
+        <!-- SABİT 3 FOTOĞRAF -->
+        <div style="background-color:rgba(255,255,255,0.85); padding:15px; border-radius:15px; box-shadow:0 8px 15px rgba(0,0,0,0.3); text-align:center;">
+            <img id="sabit3" src="sabit3.jpg" width="200">
+            <br><br>
+            <button onclick="goster('sabit3')">Göster</button>
+            <button onclick="gizle('sabit3')">Gizle</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
